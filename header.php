@@ -43,7 +43,14 @@
         <div class ="headerInner" role="navigation">
 
         <div class="logo">
-            <div class="logo-cont"></div>
+            <div class="logo-cont">
+				<h2 class="styleNone">
+					<a href="http://random.sprinklewithsalt.com"><?php bloginfo('name'); ?></a>
+				</h2>
+				<h4 class="styleNone">
+					<a href="http://random.sprinklewithsalt.com"><?php bloginfo('description'); ?></a>
+				</h4>
+			</div>
         </div>
 
             <nav class="topMain">
