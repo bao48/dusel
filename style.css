@@ -85,27 +85,33 @@ p {
 	max-width: 100%;
 	margin: 1em auto;
 }
-h1 {
+h1,
+h1.styleNone a {
 	font: 28px/1.5em "Sorts Mill Goudy", Georgia, "Times New Roman", serif;
 	max-width: 100%;
 }
-h2 {
+h2,
+h2.styleNone a {
 	font: 24px/1.5em "Sorts Mill Goudy", Georgia, 'Times New Roman', serif;
 	max-width: 100%;
 }
-h3 {
+h3,
+h3.styleNone a {
 	font: 20px/1.5em "Sorts Mill Goudy", Georgia, 'Times New Roman', serif;
 	max-width: 100%;
 }
-h4 {
+h4,
+h4.styleNone a {
 	font: 16px/1.5em "Sorts Mill Goudy", Georgia, 'Times New Roman', serif;
 	max-width: 100%;
 }
-h5 {
+h5,
+h5.styleNone a {
 	font: 14px/1.5em "Sorts Mill Goudy", Georgia, 'Times New Roman', serif;
 	max-width: 100%;
 }
-h6 {
+h6,
+h6.styleNone a {
 	font: 10px/1.5em "Sorts Mill Goudy", Georgia, 'Times New Roman', serif;
 	max-width: 100%;
 }
@@ -118,7 +124,7 @@ h5 a,
 h6 a {
 	color: #282828; 		
 }
-p a: hover,
+p a:hover,
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -841,14 +847,21 @@ z-index:0;
     margin: 30px auto;
     padding-top: 30px;
     padding-bottom: 20px;
+	text-align: center;
 }
 .logo-cont img {
     max-width: 100%;
 }
-.logoContainer h2 {
+.logo-cont h2 {
 	text-transform: uppercase;
 	font-size: 28px;
 	letter-spacing: 0.2em;
+	text-align: center;
+}
+.logo-cont h4 {
+	text-transform: lowercase;
+	text-align: center;
+	letter-spacing: 0.1em;
 }
 /* Top Navigation */
 .topMain { 
